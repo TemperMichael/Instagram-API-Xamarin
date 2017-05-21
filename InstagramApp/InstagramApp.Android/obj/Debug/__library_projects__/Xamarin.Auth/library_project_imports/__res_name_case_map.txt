@@ -1,0 +1,2 @@
+layout/activity_webview.xml;layout/activity_webview.xml
+Values/strings.xml;values/strings.xml
