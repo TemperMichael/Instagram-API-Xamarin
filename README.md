@@ -1,5 +1,5 @@
 # Instagram-API-Xamarin
-An project in Xamarin which allows you to login on Instagram and get data from the endpoints of the Instagram API.
+A project in Xamarin which allows you to login on Instagram and get data from the endpoints of the Instagram API.
 
 # Screenshots
 
