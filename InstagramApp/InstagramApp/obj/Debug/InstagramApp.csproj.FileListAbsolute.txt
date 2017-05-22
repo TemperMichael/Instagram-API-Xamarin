@@ -31,3 +31,37 @@ C:\Projects VS\InstagramApp\InstagramApp\InstagramApp\obj\Debug\InstagramApp.App
 C:\Projects VS\InstagramApp\InstagramApp\InstagramApp\obj\Debug\InstagramApp.LoginSuccessPage.xaml.g.cs
 C:\Projects VS\InstagramApp\InstagramApp\InstagramApp\obj\Debug\InstagramApp.dll
 C:\Projects VS\InstagramApp\InstagramApp\InstagramApp\obj\Debug\InstagramApp.pdb
+Z:\Temper auf meinem Mac\Desktop\FH Hagenberg IM\CPD\InstagramApp\InstagramApp\InstagramApp\bin\Debug\InstagramApp.dll
+Z:\Temper auf meinem Mac\Desktop\FH Hagenberg IM\CPD\InstagramApp\InstagramApp\InstagramApp\bin\Debug\InstagramApp.pdb
+Z:\Temper auf meinem Mac\Desktop\FH Hagenberg IM\CPD\InstagramApp\InstagramApp\InstagramApp\bin\Debug\crypto.dll
+Z:\Temper auf meinem Mac\Desktop\FH Hagenberg IM\CPD\InstagramApp\InstagramApp\InstagramApp\bin\Debug\Newtonsoft.Json.dll
+Z:\Temper auf meinem Mac\Desktop\FH Hagenberg IM\CPD\InstagramApp\InstagramApp\InstagramApp\bin\Debug\PCLCrypto.dll
+Z:\Temper auf meinem Mac\Desktop\FH Hagenberg IM\CPD\InstagramApp\InstagramApp\InstagramApp\bin\Debug\PInvoke.BCrypt.dll
+Z:\Temper auf meinem Mac\Desktop\FH Hagenberg IM\CPD\InstagramApp\InstagramApp\InstagramApp\bin\Debug\PInvoke.Kernel32.dll
+Z:\Temper auf meinem Mac\Desktop\FH Hagenberg IM\CPD\InstagramApp\InstagramApp\InstagramApp\bin\Debug\PInvoke.NCrypt.dll
+Z:\Temper auf meinem Mac\Desktop\FH Hagenberg IM\CPD\InstagramApp\InstagramApp\InstagramApp\bin\Debug\PInvoke.Windows.Core.dll
+Z:\Temper auf meinem Mac\Desktop\FH Hagenberg IM\CPD\InstagramApp\InstagramApp\InstagramApp\bin\Debug\Validation.dll
+Z:\Temper auf meinem Mac\Desktop\FH Hagenberg IM\CPD\InstagramApp\InstagramApp\InstagramApp\bin\Debug\Xamarin.Auth.dll
+Z:\Temper auf meinem Mac\Desktop\FH Hagenberg IM\CPD\InstagramApp\InstagramApp\InstagramApp\bin\Debug\Xamarin.Forms.Core.dll
+Z:\Temper auf meinem Mac\Desktop\FH Hagenberg IM\CPD\InstagramApp\InstagramApp\InstagramApp\bin\Debug\Xamarin.Forms.Platform.dll
+Z:\Temper auf meinem Mac\Desktop\FH Hagenberg IM\CPD\InstagramApp\InstagramApp\InstagramApp\bin\Debug\Xamarin.Forms.Xaml.dll
+Z:\Temper auf meinem Mac\Desktop\FH Hagenberg IM\CPD\InstagramApp\InstagramApp\InstagramApp\bin\Debug\crypto.pdb
+Z:\Temper auf meinem Mac\Desktop\FH Hagenberg IM\CPD\InstagramApp\InstagramApp\InstagramApp\bin\Debug\crypto.xml
+Z:\Temper auf meinem Mac\Desktop\FH Hagenberg IM\CPD\InstagramApp\InstagramApp\InstagramApp\bin\Debug\Newtonsoft.Json.xml
+Z:\Temper auf meinem Mac\Desktop\FH Hagenberg IM\CPD\InstagramApp\InstagramApp\InstagramApp\bin\Debug\PCLCrypto.xml
+Z:\Temper auf meinem Mac\Desktop\FH Hagenberg IM\CPD\InstagramApp\InstagramApp\InstagramApp\bin\Debug\PInvoke.BCrypt.xml
+Z:\Temper auf meinem Mac\Desktop\FH Hagenberg IM\CPD\InstagramApp\InstagramApp\InstagramApp\bin\Debug\PInvoke.Kernel32.xml
+Z:\Temper auf meinem Mac\Desktop\FH Hagenberg IM\CPD\InstagramApp\InstagramApp\InstagramApp\bin\Debug\PInvoke.NCrypt.xml
+Z:\Temper auf meinem Mac\Desktop\FH Hagenberg IM\CPD\InstagramApp\InstagramApp\InstagramApp\bin\Debug\PInvoke.Windows.Core.xml
+Z:\Temper auf meinem Mac\Desktop\FH Hagenberg IM\CPD\InstagramApp\InstagramApp\InstagramApp\bin\Debug\Validation.xml
+Z:\Temper auf meinem Mac\Desktop\FH Hagenberg IM\CPD\InstagramApp\InstagramApp\InstagramApp\bin\Debug\Xamarin.Forms.Core.pdb
+Z:\Temper auf meinem Mac\Desktop\FH Hagenberg IM\CPD\InstagramApp\InstagramApp\InstagramApp\bin\Debug\Xamarin.Forms.Core.xml
+Z:\Temper auf meinem Mac\Desktop\FH Hagenberg IM\CPD\InstagramApp\InstagramApp\InstagramApp\bin\Debug\Xamarin.Forms.Platform.pdb
+Z:\Temper auf meinem Mac\Desktop\FH Hagenberg IM\CPD\InstagramApp\InstagramApp\InstagramApp\bin\Debug\Xamarin.Forms.Xaml.pdb
+Z:\Temper auf meinem Mac\Desktop\FH Hagenberg IM\CPD\InstagramApp\InstagramApp\InstagramApp\bin\Debug\Xamarin.Forms.Xaml.xml
+Z:\Temper auf meinem Mac\Desktop\FH Hagenberg IM\CPD\InstagramApp\InstagramApp\InstagramApp\obj\Debug\InstagramApp.csprojResolveAssemblyReference.cache
+Z:\Temper auf meinem Mac\Desktop\FH Hagenberg IM\CPD\InstagramApp\InstagramApp\InstagramApp\obj\Debug\InstagramApp.MainPage.xaml.g.cs
+Z:\Temper auf meinem Mac\Desktop\FH Hagenberg IM\CPD\InstagramApp\InstagramApp\InstagramApp\obj\Debug\InstagramApp.App.xaml.g.cs
+Z:\Temper auf meinem Mac\Desktop\FH Hagenberg IM\CPD\InstagramApp\InstagramApp\InstagramApp\obj\Debug\InstagramApp.LoginSuccessPage.xaml.g.cs
+Z:\Temper auf meinem Mac\Desktop\FH Hagenberg IM\CPD\InstagramApp\InstagramApp\InstagramApp\obj\Debug\InstagramApp.dll
+Z:\Temper auf meinem Mac\Desktop\FH Hagenberg IM\CPD\InstagramApp\InstagramApp\InstagramApp\obj\Debug\InstagramApp.pdb

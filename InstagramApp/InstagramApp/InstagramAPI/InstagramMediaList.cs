@@ -20,9 +20,9 @@ namespace InstagramApp
             return JsonConvert.DeserializeObject<InstagramMediaList>(jsonResponse);
         }
 
-        public List<MediaContainer> data { get; set; }
-        public MediaMeta meta { get; set; }
-        public MediaPagination pagination { get; set; }
+        public List<MediaContainer> Data { get; set; }
+        public MediaMeta Meta { get; set; }
+        public MediaPagination Pagination { get; set; }
     }
 
     public class InstagramMediaSingle
@@ -37,89 +37,89 @@ namespace InstagramApp
             return JsonConvert.DeserializeObject<InstagramMediaSingle>(jsonResponse);
         }
 
-        public MediaContainer data { get; set; }
+        public MediaContainer Data { get; set; }
     }
 
     public class MediaCaption
     {
-        public String id { get; set; }
-        public String text { get; set; }
-        public String created_time { get; set; }
-        public MediaUser from { get; }
+        public String Id { get; set; }
+        public String Text { get; set; }
+        public String Created_time { get; set; }
+        public MediaUser From { get; }
     }
 
     public class MediaContainer
     {
-        public String id { get; set; }
-        public MediaUser user { get; set; }
-        public MediaImages images { get; set; }
-        public String created_time { get; set; }
-        public MediaCaption caption { get; set; }
-        public bool user_has_liked { get; set; }
-        public MediaCounter likes { get; set; }
-        public List<String> tags { get; set; }
-        public String filter { get; set; }
-        public MediaCounter comments { get; set; }
-        public String type { get; set; }
-        public String link { get; set; }
-        public MediaLocation location { get; set; }
-        public String attribution { get; set; }
-        public List<MediaUsersInPhoto> users_in_photo { get; set; }
+        public String Id { get; set; }
+        public MediaUser User { get; set; }
+        public MediaImages Images { get; set; }
+        public String Created_time { get; set; }
+        public MediaCaption Caption { get; set; }
+        public bool User_has_liked { get; set; }
+        public MediaCounter Likes { get; set; }
+        public List<String> Tags { get; set; }
+        public String Filter { get; set; }
+        public MediaCounter Comments { get; set; }
+        public String Type { get; set; }
+        public String Link { get; set; }
+        public MediaLocation Location { get; set; }
+        public String Attribution { get; set; }
+        public List<MediaUsersInPhoto> Users_in_photo { get; set; }
     }
 
     public class MediaCounter
     {
-        public int count { get; set; }
+        public int Count { get; set; }
     }
 
     public class MediaImageType
     {
-        public String width { get; set; }
-        public String height { get; set; }
-        public String url { get; set; }
+        public String Width { get; set; }
+        public String Height { get; set; }
+        public String Url { get; set; }
     }
 
     public class MediaImages
     {
-        public MediaImageType thumbnail { get; set; }
-        public MediaImageType low_resolution { get; set; }
-        public MediaImageType standard_resolution { get; set; }
+        public MediaImageType Thumbnail { get; set; }
+        public MediaImageType Low_resolution { get; set; }
+        public MediaImageType Standard_resolution { get; set; }
     }
 
     public class MediaLocation
     {
-        public float longitude { get; set; }
-        public float latitude { get; set; }
-        public String created_time { get; set; }
-        public String id { get; set; }
-        public String street_address { get; set; }
-        public String name { get; set; }
+        public float Longitude { get; set; }
+        public float Latitude { get; set; }
+        public String Created_time { get; set; }
+        public String Id { get; set; }
+        public String Street_address { get; set; }
+        public String Name { get; set; }
     }
 
     public class MediaMeta
     {
-        public int code { get; set; }
+        public int Code { get; set; }
     }
 
     public class MediaPagination { }
 
     public class MediaPosition
     {
-        public float x { get; set; }
-        public float y { get; set; }
+        public float X { get; set; }
+        public float Y { get; set; }
     }
 
     public class MediaUser
     {
-        public String id { get; set; }
-        public String full_name { get; set; }
-        public String profile_picture { get; set; }
-        public String username { get; set; }
+        public String Id { get; set; }
+        public String Full_name { get; set; }
+        public String Profile_picture { get; set; }
+        public String Username { get; set; }
     }
 
     public class MediaUsersInPhoto
     {
-        public MediaUser user { get; set; }
-        public MediaPosition position { get; set; }
+        public MediaUser User { get; set; }
+        public MediaPosition Position { get; set; }
     }
 }

@@ -32,32 +32,32 @@ namespace InstagramApp
                 InstagramUser userSelf = InstagramUser.CreateFromJsonResponse(jsonResponse);
                 Debug.WriteLine("UserSelf JSON response: " + jsonResponse);
 
-                var id = new Label { Text = "Id: " + userSelf.data.id, TextColor = Color.FromHex(fontColor), FontSize = fontSize };
+                var id = new Label { Text = "Id: " + userSelf.Data.Id, TextColor = Color.FromHex(fontColor), FontSize = fontSize };
                 layout.Children.Add(id);
 
-                var username = new Label { Text = "Username: " + userSelf.data.username, TextColor = Color.FromHex(fontColor), FontSize = fontSize };
+                var username = new Label { Text = "Username: " + userSelf.Data.Username, TextColor = Color.FromHex(fontColor), FontSize = fontSize };
                 layout.Children.Add(username);
 
                 var webImage = new Image();
-                webImage.Source = ImageSource.FromUri(new Uri(userSelf.data.profile_picture));
+                webImage.Source = ImageSource.FromUri(new Uri(userSelf.Data.Profile_picture));
                 layout.Children.Add(webImage);
 
-                var bio = new Label { Text = "Bio: " + userSelf.data.bio, TextColor = Color.FromHex(fontColor), FontSize = fontSize };
+                var bio = new Label { Text = "Bio: " + userSelf.Data.Bio, TextColor = Color.FromHex(fontColor), FontSize = fontSize };
                 layout.Children.Add(bio);
 
-                var website = new Label { Text = "Website: " + userSelf.data.website, TextColor = Color.FromHex(fontColor), FontSize = fontSize };
+                var website = new Label { Text = "Website: " + userSelf.Data.Website, TextColor = Color.FromHex(fontColor), FontSize = fontSize };
                 layout.Children.Add(website);
 
-                var amountOfPics = new Label { Text = "Amount of pics: " + userSelf.data.counts.media, TextColor = Color.FromHex(fontColor), FontSize = fontSize };
+                var amountOfPics = new Label { Text = "Amount of pics: " + userSelf.Data.Counts.Media, TextColor = Color.FromHex(fontColor), FontSize = fontSize };
                 layout.Children.Add(amountOfPics);
 
-                var amountOfFollows = new Label { Text = "Amount of follows: " + userSelf.data.counts.follows, TextColor = Color.FromHex(fontColor), FontSize = fontSize };
+                var amountOfFollows = new Label { Text = "Amount of follows: " + userSelf.Data.Counts.Follows, TextColor = Color.FromHex(fontColor), FontSize = fontSize };
                 layout.Children.Add(amountOfFollows);
 
-                var amountOfFollower = new Label { Text = "Amount of follower: " + userSelf.data.counts.followed_by, TextColor = Color.FromHex(fontColor), FontSize = fontSize };
+                var amountOfFollower = new Label { Text = "Amount of follower: " + userSelf.Data.Counts.Followed_by, TextColor = Color.FromHex(fontColor), FontSize = fontSize };
                 layout.Children.Add(amountOfFollower);
 
-                var meta = new Label { Text = "Meta: " + userSelf.meta.code, TextColor = Color.FromHex(fontColor), FontSize = fontSize };
+                var meta = new Label { Text = "Meta: " + userSelf.Meta.Code, TextColor = Color.FromHex(fontColor), FontSize = fontSize };
                 layout.Children.Add(meta);
             });
             getUserSelf.Start();
@@ -68,7 +68,7 @@ namespace InstagramApp
             {
                 jsonResponse = InstagramAPI.GetUserOther("2142923999").Result;
                 InstagramUser userOther = InstagramUser.CreateFromJsonResponse(jsonResponse);
-                Debug.WriteLine("UserOther username: " + userOther.data.username);
+                Debug.WriteLine("UserOther username: " + userOther.Data.Username);
             });
             getUserOther.Start();
             getUserOther.Wait();
@@ -78,7 +78,7 @@ namespace InstagramApp
             {
                 jsonResponse = InstagramAPI.GetUserMediaSelf().Result;
                 InstagramMediaList mediaSelf = InstagramMediaList.CreateFromJsonResponse(jsonResponse);
-                Debug.WriteLine("AllMediaSelf filter: " + mediaSelf.data[0].filter);
+                Debug.WriteLine("AllMediaSelf filter: " + mediaSelf.Data[0].Filter);
             });
             getAllMediaSelf.Start();
             getAllMediaSelf.Wait();
@@ -88,7 +88,7 @@ namespace InstagramApp
             {
                 jsonResponse = InstagramAPI.GetUserMediaOther("2142923999").Result;
                 InstagramMediaList mediaOther = InstagramMediaList.CreateFromJsonResponse(jsonResponse);
-                Debug.WriteLine("AllMediaOther likes: " + mediaOther.data[0].likes.count);
+                Debug.WriteLine("AllMediaOther likes: " + mediaOther.Data[0].Likes.Count);
             });
             getAllMediaOther.Start();
             getAllMediaOther.Wait();
@@ -98,7 +98,7 @@ namespace InstagramApp
             {
                 jsonResponse = InstagramAPI.GetMediaInfo("1065424377547227936_2142923999").Result;
                 InstagramMediaSingle mediaSingle = InstagramMediaSingle.CreateFromJsonResponse(jsonResponse);
-                Debug.WriteLine("SingleMediaInfo id: " + mediaSingle.data.id);
+                Debug.WriteLine("SingleMediaInfo id: " + mediaSingle.Data.Id);
             });
             getSingleMediaInfo.Start();
             getSingleMediaInfo.Wait();
@@ -108,7 +108,7 @@ namespace InstagramApp
             {
                 jsonResponse = InstagramAPI.SetLike("1065424377547227936_2142923999").Result;
                 InstagramLike media = InstagramLike.CreateFromJsonResponse(jsonResponse);
-                Debug.WriteLine("AddLike response code: " + media.meta.code);
+                Debug.WriteLine("AddLike response code: " + media.Meta.Code);
             });
             addLike.Start();
             addLike.Wait();
@@ -118,7 +118,7 @@ namespace InstagramApp
             {
                 jsonResponse = InstagramAPI.GetLikes("1065424377547227936_2142923999").Result;
                 InstagramLike media = InstagramLike.CreateFromJsonResponse(jsonResponse);
-                Debug.WriteLine("GetLikes username: " + media.data[0].username);
+                Debug.WriteLine("GetLikes username: " + media.Data[0].Username);
             });
             getLikes.Start();
             getLikes.Wait();
@@ -128,7 +128,7 @@ namespace InstagramApp
             {
                 jsonResponse = InstagramAPI.RemoveLike("1065991007700419021_2142923999").Result;
                 InstagramLike media = InstagramLike.CreateFromJsonResponse(jsonResponse);
-                Debug.WriteLine("RemoveLike response code: " + media.meta.code);
+                Debug.WriteLine("RemoveLike response code: " + media.Meta.Code);
             });
             removeLike.Start();
             removeLike.Wait();

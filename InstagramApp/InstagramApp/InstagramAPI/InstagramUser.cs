@@ -19,30 +19,30 @@ namespace InstagramApp
             return JsonConvert.DeserializeObject<InstagramUser>(jsonResponse);
         }
 
-        public UserData data { get; set; }
-        public UserMeta meta { get; set; }
+        public UserData Data { get; set; }
+        public UserMeta Meta { get; set; }
     }
 
     public class UserCounts
     {
-        public int media { get; set; }
-        public int follows { get; set; }
-        public int followed_by { get; set; }
+        public int Media { get; set; }
+        public int Follows { get; set; }
+        public int Followed_by { get; set; }
     }
 
     public class UserData
     {
-        public string id { get; set; }
-        public string username { get; set; }
-        public string profile_picture { get; set; }
-        public string full_name { get; set; }
-        public string bio { get; set; }
-        public string website { get; set; }
-        public UserCounts counts { get; set; }
+        public string Id { get; set; }
+        public string Username { get; set; }
+        public string Profile_picture { get; set; }
+        public string Full_name { get; set; }
+        public string Bio { get; set; }
+        public string Website { get; set; }
+        public UserCounts Counts { get; set; }
     }
 
     public class UserMeta
     {
-        public int code { get; set; }
+        public int Code { get; set; }
     }
 }

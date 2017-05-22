@@ -20,21 +20,21 @@ namespace InstagramApp
             return JsonConvert.DeserializeObject<InstagramLike>(jsonResponse);
         }
 
-        public List<LikeUser> data { get; set; }
-        public LikeMeta meta { get; set; }
+        public List<LikeUser> Data { get; set; }
+        public LikeMeta Meta { get; set; }
     }
 
     public class LikeMeta
     {
-        public int code { get; set; }
+        public int Code { get; set; }
     }
 
     public class LikeUser
     {
-        public String username { get; set; }
-        public String first_name { get; set; }
-        public String last_name { get; set; }
-        public String type { get; set; }
-        public String id { get; set; }
+        public String Username { get; set; }
+        public String First_name { get; set; }
+        public String Last_name { get; set; }
+        public String Type { get; set; }
+        public String Id { get; set; }
     }
 }
