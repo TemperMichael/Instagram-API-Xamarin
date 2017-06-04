@@ -50,5 +50,6 @@ And that's it! Just run the project and everything works with your data! Please 
 * The project runs on Windows Visual Studio. I tried to use it with Xamarin Studio und Visual Studio for Mac, but there occurred errors. But you can still use the whole code, just copy the Instagram API folder to your project and add the OAuthLoginPresenter to your project as describen in the InstagramAuthenticator class.
 * I didn't use all scope parameters and endpoints in this project, but when you take a look at the Instagram API class you can see how you can access endpoints.
 * The project uses client-side authentication.
+* The tasks in the project are not async!
 * The project is well documented. Please take a look at the code for further information.
 * Please share the project if it helped you, so that others also don't have to spend hours to setup the communication with Instagram!
